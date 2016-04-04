@@ -13,7 +13,8 @@
 
 #navcontent{
 	height: 80px;
-	/*align-items: center;*/
+	align-items: center;
+	justify-content: center;
 }
 
 .navigation{
@@ -25,15 +26,27 @@
 	width: 100%;
 }
 
+.navigation>.contentcontainer{
+		border-top: 3px solid red;
+}
+
 .navlinks{
 	float:left;
-	margin: 15px;
+	margin:5px;
 	list-style: none;
+}
+
+.navlinks>a{
+	text-decoration: none
+}
+.navlinks>a:hover{
+	color:red;
 }
 
 #logo{
 	max-width: 100px;
 	float:left;
+	align-items: center;
 }
 
 #search{
@@ -41,6 +54,27 @@
 	float:right;
 }
 
+.title{
+	text-align: center;
+	font-size: 4em;
+}
+
+.subtitle{
+	text-align: center;
+	font-size: 1.5em;
+	width: 400px;
+	margin: 10px auto;
+}
+
+
+.gallery>.contentcontainer{
+	background-color: blue;
+}
+
 header, main, footer{
 	width: 100%;
+}
+
+#new{
+	color:red;
 }
