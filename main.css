@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	font-family: sans-serif;
+}
+
+.header {
+	margin-top: 80px;
+}
+.contentcontainer{
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+#navcontent{
+	height: 80px;
+	/*align-items: center;*/
+}
+
+.navigation{
+
+	background-color: lightgrey;
+	position: fixed;
+	top:0px;
+	height: 80px;
+	width: 100%;
+}
+
+.navlinks{
+	float:left;
+	margin: 15px;
+	list-style: none;
+}
+
+#logo{
+	max-width: 100px;
+	float:left;
+}
+
+#search{
+	max-width: 30px;
+	float:right;
+}
+
+header, main, footer{
+	width: 100%;
+}
