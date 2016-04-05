@@ -81,3 +81,10 @@ header, main, footer{
 #new{
 	color:red;
 }
+
+.footcontainer {
+	-webkit-column-count: 3;
+  columns:200px 3;
+  column-gap: 3em;
+  overflow: hidden;
+}
